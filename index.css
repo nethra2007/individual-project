@@ -1,0 +1,229 @@
+*{
+    margin:opx;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: times,serif;
+    color:white;
+    background-color: black;
+}
+.container{
+    max-width: 90rem;
+    margin:2rem auto;
+    padding:0px 2rem;
+}
+.header{
+    padding:2rem;
+    margin:1rem 0px;
+    text-align: center;
+}
+.header >.title{
+    margin-bottom: 1rem;
+}
+.tribute{
+    display:grid;
+    grid-template-columns:2fr 1fr;
+    max-width: 78rem;
+    margin: 0px auto;
+    background-color: white;
+    color: black;
+    align-items: center;
+    padding: 0px 0px 0px 1rem;
+}
+.tribute blockquote{
+    text-align: center;
+    font-size: 3rem;
+}
+.tribute img{
+    max-width:100%;
+}
+.bio{
+    margin:2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+.bio>h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.bio>p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.bio>hr{
+  margin-top: 2rem;
+}
+.awards{
+    margin:2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+.awards>h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.awards>p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.awards>hr{
+  margin-top: 2rem;
+}
+.strug{
+    margin:2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+.strug>h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.strug>p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.strug>hr{
+  margin-top: 2rem;
+}
+.gr{
+    margin:2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+.gr>h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.gr>p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.gr>hr{
+  margin-top: 2rem;
+}
+.all{
+    margin:2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+.all>h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.all>p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.all>hr{
+  margin-top: 2rem;
+}
+.stage{
+    margin:2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+.stage>h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.stage>p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.stage>hr{
+  margin-top: 2rem;
+}
+.img{
+        float: left;
+        margin-right: 10px;
+        max-width: 100%;
+}
+.charity{
+    margin:2rem auto;
+    padding: 0px 0.5rem;
+    max-width: 40rem;
+}
+.charity>h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    line-height: 1.2;
+}
+.charity>p{
+    font-size: 1.2rem;
+    line-height: 1.4;
+}
+.charity>hr{
+  margin-top: 2rem;
+}
+/* Footer Styles */
+.footer {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+#scrollTopBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+#scrollTopBtn:hover {
+    background-color: #45a049;
+}
+/* Styling for the Top Section */
+.top-section {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.top-section h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.top-section nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.top-section nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.top-section nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.top-section nav ul li a:hover {
+    text-decoration: underline;
+}

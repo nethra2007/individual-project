@@ -1,0 +1,78 @@
+<html>
+    <head><title>REGISTER PAGE</title></head>
+    <style>
+       body{
+        background-color: rgb(227, 193, 120);
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: italic;
+        font-size: 1em;
+        color: rgb(13, 1, 21);
+       }
+       #sub{
+        background-color: rgb(102, 8, 8);
+        border:5px solid 5px;
+        color: antiquewhite;
+        cursor: pointer;
+        transition: background-color 25s;
+       }
+       #sub:hover{
+        background-color: rgb(200, 51, 51);
+       }
+       #div{
+        border: 3px solid 2px;
+        border-radius: 5px;
+       }
+    </style>
+</html>
+<body>
+    <h1>Register Here</h1>
+    <form name="myform" id="myform" onsubmit="return formvalidate()" method="post">
+        <div class="center">
+        <label for="name">NAME:</label>
+        <input type="text" id="name" placeholder="ENTER YOUR NAME"><br><br>
+        <label for="mail">MAIL ID:</label>
+        <input type="text" id="mail" placeholder="ENTER YOUR MAIL ID"><br><br>
+        <label for="dob">DATE OF BIRTH :</label>
+        <input type="text" id="dob" placeholder="DD/MM/YYYY"><br><br>
+        <label for="gender">GENDER : </label>
+        <input type="radio" id="female">
+        <label>FEMALE</label>
+        <input type="radio" id="male">
+        <label>MALE</label><br><br>
+        <label for="address">ADDRESS</label><br><br>
+        <label for="street">STREET :</label>
+        <input type="text" id="street"><br><br>
+        <label for="dist">DISTRICT :</label>
+            <select id="dist" name="dist">
+            <option value="dist">-DISTRICT-</option>
+            <option value="chennai">CHENNAI</option>
+            <option value="madurai">MADURAI</option>
+            <option value="coimbatore">COIMBATORE</option>
+            <option value="dindigul">DINDIGUL</option>
+            <option value="karur">KARUR</option></select><br><br>
+        <label for="country">COUNTRY :</label>
+        <input type="text" id="country"><br><br>
+        <label for="phone">PHONE NO :</label>
+        <input type="text" id="phone" placeholder="### ### ####"><br><br>
+        <label for="pw">PASSWORD :</label>
+        <input type="password" id="pw"  ><br><br>
+        <label for="cpw">CONFIRM PASSWORD :</label>
+        <input type="password" id="cpw"><br><br>
+        </div>
+        <button id="sub">SUBMIT</button>
+    </form>
+    <script>
+        let pass=document.forms["myform"]["pw"].value;
+        let cpass=document.forms["myform"]["cpw"].value;
+        function formvalidate(){
+             if(pass==cpass){
+                alert("login successfully");
+                return true;
+             }
+            else{
+                alert("invalid password");
+                return false;
+            }
+        }
+    </script>
+</body>
